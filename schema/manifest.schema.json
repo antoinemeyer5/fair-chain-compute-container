@@ -6,6 +6,7 @@
   "default": null,
   "required": [
     "name",
+    "type",
     "version",
     "title",
     "description",
@@ -23,6 +24,21 @@
       "default": "",
       "examples": [
         "wipp/computational-tool-example"
+      ],
+      "minLength": 1,
+      "pattern": "^(.*)$"
+    },
+    "type": {
+      "$id": "#/properties/type",
+      "type": "string",
+      "title": "Computational tool type",
+      "description": "Type of the computational tool (format: org/type)",
+      "default": "",
+      "examples": [
+        "segmentation",
+        "classification",
+        "threshold",
+        "crop"
       ],
       "minLength": 1,
       "pattern": "^(.*)$"
