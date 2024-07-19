@@ -460,6 +460,8 @@
         "default": null,
         "required": [
           "name",
+          "framework",
+          "architecture",
           "type",
           "description"
         ],
@@ -473,6 +475,33 @@
               "outputCollection"
             ],
             "pattern": "^[a-zA-Z0-9][-a-zA-Z0-9]*$"
+          },
+          "framework": {
+            "$id": "#/properties/outputs/items/properties/framework",
+            "type": "string",
+            "enum": [
+              "TensorFlow",
+              "PyTorch",
+              "BioImageIo"
+            ],
+            "title": "Output framework",
+            "examples": [
+              "TensorFlow",
+              "PyTorch"
+            ]
+          },
+          "architecture": {
+            "$id": "#/properties/outputs/items/properties/architecture",
+            "type": "string",
+            "enum": [
+              "Unet",
+              "Resnet50",
+              "Other"
+            ],
+            "title": "Output architecture",
+            "examples": [
+              "Unet"
+            ]
           },
           "type": {
             "$id": "#/properties/outputs/items/properties/type",
