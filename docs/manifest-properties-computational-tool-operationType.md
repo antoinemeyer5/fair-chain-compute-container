@@ -1,21 +1,21 @@
 # Computational tool type Schema
 
 ```txt
-#/properties/type#/properties/type
+#/properties/operationType#/properties/operationType
 ```
 
-Type of the computational tool (format: org/type)
+Type of the computational tool (format: org/operationType)
 
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                            |
 | :------------------ | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | --------------------------------------------------------------------- |
 | Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [manifest.schema.json\*](manifest.schema.json "open original schema") |
 
-## type Type
+## operationType Type
 
-`string` ([Computational tool type](manifest-properties-computational-tool-type.md))
+`string` ([Computational tool type](manifest-properties-computational-tool-operationType.md))
 
-## type Constraints
+## operationType Constraints
 
 **minimum length**: the minimum number of characters for this string is: `1`
 
@@ -27,7 +27,7 @@ Type of the computational tool (format: org/type)
 
 [try pattern](https://regexr.com/?expression=%5E(.*)%24 "try regular expression with regexr.com")
 
-## type Examples
+## operationType Examples
 
 ```json
 "segmentation"

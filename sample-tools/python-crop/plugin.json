@@ -1,6 +1,6 @@
 {
     "name": "Simple Python Image Crop Plugin",
-    "type": "crop",
+    "operationType": "crop",
     "version": "0.0.1",
     "title": "Simple Python Image Crop",
     "author": "Peter Bajcsy",

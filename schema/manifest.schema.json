@@ -6,7 +6,7 @@
   "default": null,
   "required": [
     "name",
-    "type",
+    "operationType",
     "version",
     "title",
     "description",
@@ -28,11 +28,11 @@
       "minLength": 1,
       "pattern": "^(.*)$"
     },
-    "type": {
-      "$id": "#/properties/type",
+    "operationType": {
+      "$id": "#/properties/operationType",
       "type": "string",
       "title": "Computational tool type",
-      "description": "Type of the computational tool (format: org/type)",
+      "description": "Type of the computational tool (format: org/operationType)",
       "default": "",
       "examples": [
         "segmentation",

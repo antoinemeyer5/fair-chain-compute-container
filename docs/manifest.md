@@ -20,7 +20,7 @@ https://raw.githubusercontent.com/usnistgov/fair-chain-compute-container/master/
 | Property                                      | Type         | Required | Nullable       | Defined by                                                                                                                                                                                                                             |
 | :-------------------------------------------- | ------------ | -------- | -------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [name](#name)                                 | `string`     | Required | cannot be null | [Manifest schema](manifest-properties-computational-tool-name.md "\#/properties/name#/properties/name")                                                                                                                                |
-| [type](#type)                                 | `string`     | Required | cannot be null | [Manifest schema](manifest-properties-computational-tool-type.md "\#/properties/type#/properties/type")                                                                                                                                |
+| [operationType](#operationType)               | `string`     | Required | cannot be null | [Manifest schema](manifest-properties-computational-tool-operationType.md "\#/properties/operationType#/properties/operationType")                                                                                                        |
 | [version](#version)                           | `string`     | Required | cannot be null | [Manifest schema](manifest-properties-computational-tool-version.md "\#/properties/version#/properties/version")                                                                                                                       |
 | [title](#title)                               | `string`     | Required | cannot be null | [Manifest schema](manifest-properties-computational-tool-title.md "\#/properties/title#/properties/title")                                                                                                                             |
 | [description](#description)                   | `string`     | Required | cannot be null | [Manifest schema](manifest-properties-short-description-of-the-computational-tool.md "\#/properties/description#/properties/description")                                                                                              |
@@ -70,23 +70,23 @@ Name of the computational tool (format: org/name)
 "wipp/computational-tool-example"
 ```
 
-## type
+## operationType
 
 Type of the computational tool (format: org/type)
 
 
-`type`
+`operationType`
 
 -   is required
--   Type: `string` ([Computational tool type](manifest-properties-computational-tool-type.md))
+-   Type: `string` ([Computational tool type](manifest-properties-computational-tool-operationType.md))
 -   cannot be null
--   defined in: [Manifest schema](manifest-properties-computational-tool-type.md "\#/properties/type#/properties/type")
+-   defined in: [Manifest schema](manifest-properties-computational-tool-operationType.md "\#/properties/operationType#/properties/operationType")
 
-### type Type
+### operationType Type
 
-`string` ([Computational tool type](manifest-properties-computational-tool-type.md))
+`string` ([Computational tool type](manifest-properties-computational-tool-operationType.md))
 
-### type Constraints
+### operationType Constraints
 
 **minimum length**: the minimum number of characters for this string is: `1`
 
@@ -98,7 +98,7 @@ Type of the computational tool (format: org/type)
 
 [try pattern](https://regexr.com/?expression=%5E(.*)%24 "try regular expression with regexr.com")
 
-### type Examples
+### operationType Examples
 
 ```json
 "segmentation"
