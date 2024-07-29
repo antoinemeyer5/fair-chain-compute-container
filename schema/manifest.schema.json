@@ -480,27 +480,27 @@
             "$id": "#/properties/outputs/items/properties/framework",
             "type": "string",
             "enum": [
-              "TensorFlow",
-              "PyTorch",
-              "BioImageIo"
+              "tensorflow",
+              "pytorch",
+              "bioimageio"
             ],
             "title": "Output framework",
             "examples": [
-              "TensorFlow",
-              "PyTorch"
+              "tensorflow",
+              "pytorch"
             ]
           },
           "architecture": {
             "$id": "#/properties/outputs/items/properties/architecture",
             "type": "string",
             "enum": [
-              "Unet",
-              "Resnet50",
-              "Other"
+              "unet",
+              "resnet50",
+              "other"
             ],
             "title": "Output architecture",
             "examples": [
-              "Unet"
+              "unet"
             ]
           },
           "type": {

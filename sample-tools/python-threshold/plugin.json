@@ -27,8 +27,8 @@
 	"outputs": [
 		{
 			"name": "output",
-			"framework": "TensorFlow",
-			"architecture": "Other",
+			"framework": "tensorflow",
+			"architecture": "other",
 			"type": "collection",
 			"description": "Output images"
 		}
