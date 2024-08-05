@@ -13,22 +13,4 @@ Type of the computational tool (format: org/operationType)
 
 ## operationType Type
 
-`string` ([Computational tool type](manifest-properties-computational-tool-operationType.md))
-
-## operationType Constraints
-
-**minimum length**: the minimum number of characters for this string is: `1`
-
-**pattern**: the string must match the following regular expression: 
-
-```regexp
-^(.*)$
-```
-
-[try pattern](https://regexr.com/?expression=%5E(.*)%24 "try regular expression with regexr.com")
-
-## operationType Examples
-
-```json
-"segmentation"
-```
+`string[]` ([Computational tool type](manifest-properties-computational-tool-operationType.md))

@@ -1,6 +1,6 @@
 {
 	"name": "Simple Python Thresholding Plugin",
-	"operationType": "threshold",
+	"operationType": ["threshold"],
 	"version": "0.0.1",
 	"title": "Simple Python Thresholding",
 	"author": "Mylene Simon",
