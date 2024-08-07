@@ -33,10 +33,12 @@
     "outputs": [
         {
             "name": "outputdir",
-            "framework": "tensorflow",
-            "architecture": "other",
             "type": "collection",
-            "description": "Output images"
+            "description": "Output images",
+            "options": {
+                "framework": "tensorflow",
+                "architecture": "other"
+            }
         }
     ],
     "ui": [
